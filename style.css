@@ -1,21 +1,54 @@
+* {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #93b7d9;
+}
+
+div {
+    /* border: black solid 1px; */
+    padding: 20px;
+    width: 100%;
+}
+
+h1 {
+    background-color: #3562cc;
+    offset: 20px;
+    font-size: larger;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+}
+
+.nombre {
+    background-color: #93b7d9;
+}
+
+
 .titulito {
     padding: 20px;
     text-align: center;
-    background: teal;
+    background: #93b7d9;
 }
 
 .navbar {
-    background-color: #2755a1;
+    background-color: #3562cc;
     overflow: hidden;
-    /* align-self: center; BUSCAR COMO ALINEARLO */
+    align-items: center;
+    position:unset;
+    width: 100%;
 }
 
 .navbar a {
     float: left;
-    color: grey;
+    color: black;
     text-align: center;
     padding: 15px;
     font-size: 17px;
+    align-self: center;
+    width: 25%;
+    text-decoration: none;
 }
 
 .navbar a:hover {
@@ -23,19 +56,9 @@
     color: black;
 }
 
-.navbar a.active {
-    background-color: goldenrod;
-    color: wheat;
-}
 .about {
-    background-color: #2755a1;
+    background-color: #93b7d9;
 }
-
-.about div {
-    border: 1px solid black;
-}
-
-
 
 .me {
     align-self: center;
@@ -49,11 +72,7 @@
     width: 40%;
 }
 
-.about h1 {
-    font-size: larger;
-    text-align: center;
-    padding: 20px;
-}
+
 .about h2 {
     font-size: medium;
     text-align: center;
@@ -105,7 +124,7 @@
 }
 
 .num {
-    color: #f2f2f2;
+    color: #020101;
     font-size: 12px;
     padding: 8px 12px;
     position: absolute;
@@ -127,14 +146,14 @@
     height: 15px;
     width: 15px;
     margin: 0 2px;
-    background-color: #bbb;
+    background-color: grey;
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
 }
 
 .active, .dot:hover {
-    background-color: #717171;
+    background-color: beige;
 }
 
 .fade {
@@ -167,29 +186,31 @@
     text-align: center;
   }
 .skills {
-    background-color: bisque;
-    border: black solid 1px;
+    background-color: #93b7d9;
 }
 
-.skills div {
-    border: black solid 1px;
-}
 .exp {
-    background-color: aquamarine;
-    border: solid black 1px;
+    background-color: #93b7d9;
 }
 
-.exp .titulo {
-
+.exp a {
     text-align: center;
 }
 
-.exp .proyecto {
-    border: solid black 1px;
-}
-
-.exp .proyecto a {
+.proyecto a {
     font-size: larger;
     color: black;
     align-self: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contactarme {
+    text-align: center;
+    padding: 20px;
+}
+
+.miContacto {
+    padding: 20px;
+    text-align: center;
 }
