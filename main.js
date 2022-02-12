@@ -39,6 +39,11 @@ let mySkills = {
     "Git": 7
 }
 
+function checkForm(){
+    alert("Has enviado el formulario.");
+    return false;
+}
+
 // function setAttributes(skill, title, progress){
 //     skill.innerHTML = title;
 //     skill.style.width = progress * 10;
