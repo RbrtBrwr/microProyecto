@@ -28,6 +28,7 @@
     color: wheat;
 }
 
+<<<<<<< HEAD
 .about {
     background-color: #2755a1;
 }
@@ -175,3 +176,24 @@
 .skills div {
     border: black solid 1px;
 }
+=======
+.exp {
+    background-color: aquamarine;
+    border: solid black 1px;
+}
+
+.exp .titulo {
+
+    text-align: center;
+}
+
+.exp .proyecto {
+    border: solid black 1px;
+}
+
+.exp .proyecto a {
+    font-size: larger;
+    color: black;
+    align-self: center;
+}
+>>>>>>> experience
