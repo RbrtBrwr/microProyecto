@@ -186,7 +186,13 @@ h1 {
     text-align: center;
   }
 .skills {
-    background-color: #93b7d9;
+    width: 100%;
+}
+
+.skills div {
+    width: 1%;
+    height: 30px;
+    background-color: #1239ff;
 }
 
 .exp {
@@ -197,6 +203,13 @@ h1 {
     text-align: center;
 }
 
+.proyecto {
+    border: white dotted;
+}
+
+.proyecto img {
+    width: 100%;
+}
 .proyecto a {
     font-size: larger;
     color: black;
@@ -213,4 +226,51 @@ h1 {
 .miContacto {
     padding: 20px;
     text-align: center;
+}
+
+#skill1 {
+    width: 80%;
+    background-color: green;
+}
+
+#skill1 {
+    width: 80%;
+    background-color: green;
+}
+#skill2 {
+    width: 60%;
+    background-color: orange;
+}
+#skill3 {
+    width: 70%;
+    background-color: green;
+}
+#skill4 {
+    width: 50%;
+    background-color: orange;
+}
+#skill5 {
+    width: 30%;
+    background-color: red;
+}
+#skill6 {
+    width: 40%;
+    background-color: orange;
+}
+#skill7 {
+    width: 30%;
+    background-color: red;
+}
+#skill8 {
+    width: 30%;
+    background-color: red;
+}
+#skill9 {
+    width: 70%;
+    background-color: green;
+}
+
+#skill10 {
+    width: 70%;
+    background-color: green;
 }
