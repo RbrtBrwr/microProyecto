@@ -34,3 +34,9 @@
     text-align: center;
     background-color: teal;
 }
+
+.contacto .miCont{
+    /* Quiero que se ponga en una sola linea; */
+    padding: 0%;
+    vertical-align: middle;
+}
