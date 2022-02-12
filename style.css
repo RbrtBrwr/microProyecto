@@ -167,3 +167,11 @@
     width: 100%;
     text-align: center;
   }
+.skills {
+    background-color: bisque;
+    border: black solid 1px;
+}
+
+.skills div {
+    border: black solid 1px;
+}
