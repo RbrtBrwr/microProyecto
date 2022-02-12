@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="main.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KOKOROUMOYASE</title>
     <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
     <div class="titulito">
@@ -18,9 +20,37 @@
         <a href="#skills">Skills</a>
         <a href="#contact">Contact Me</a>
     </div>
+
     <div class="hero">
-        <!-- aqui va el hero -->
-        <p>prueba</p>
+        <div class="slide fade slide1">
+            <div class="num">1/4</div>
+            <img src=".gitignore/img1.jpg">
+            <div class="text">Caption Text</div>
+        </div>
+        <div class="slide fade">
+            <div class="num">2/4</div>
+            <img src=".gitignore/img2.jpg">
+            <div class="text">Caption Text</div>
+        </div>
+        <div class="slide fade">
+            <div class="num">3/4</div>
+            <img src=".gitignore/img3.jpg">
+            <div class="text">Caption Text</div>
+        </div>
+        <div class="slide fade">
+            <div class="num">4/4</div>
+            <img src=".gitignore/img4.jpg">
+            <div class="text">Caption Text</div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <div class="puntitos">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
     </div>
     
 </body>
