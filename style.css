@@ -27,3 +27,23 @@
     background-color: goldenrod;
     color: wheat;
 }
+
+.exp {
+    background-color: aquamarine;
+    border: solid black 1px;
+}
+
+.exp .titulo {
+
+    text-align: center;
+}
+
+.exp .proyecto {
+    border: solid black 1px;
+}
+
+.exp .proyecto a {
+    font-size: larger;
+    color: black;
+    align-self: center;
+}
