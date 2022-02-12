@@ -3,3 +3,27 @@
     text-align: center;
     background: teal;
 }
+
+.navbar {
+    background-color: #2755a1;
+    overflow: hidden;
+    /* align-self: center; BUSCAR COMO ALINEARLO */
+}
+
+.navbar a {
+    float: left;
+    color: grey;
+    text-align: center;
+    padding: 15px;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background-color: azure;
+    color: black;
+}
+
+.navbar a.active {
+    background-color: goldenrod;
+    color: wheat;
+}
